@@ -7,7 +7,14 @@ export default function Rightbar() {
   return (
     <>
         
-        <Stats/>
+       <Stats
+        s={[
+          { stat: "Attension", delta: +100 },
+          
+
+        ]}
+      />
+                               
         <AiBot/>
     </>
   )

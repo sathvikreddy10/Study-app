@@ -20,9 +20,9 @@ export default function Todolist({percentage_completion}) {
                     </div>
                     
                     <div className="todolist_taks flex flex-col">
-                      <div className="tasks_element_container flex justify-between px-2">
-                        <div className="todolist_task_name leading-none justify-center h-[1.65rem] items-center">Devara</div>
-                                  <div className="icon"> 
+                      <div className="tasks_element_container flex justify-between items-center px-2">
+                        <div className="todolist_task_name leading-none ">Devara</div>
+                                  <div className="icon self-center"> 
                                       <Image 
                                       src={checkbox} 
                                       alt="checkbox"
